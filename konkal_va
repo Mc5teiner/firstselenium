@@ -1,0 +1,23 @@
+import os
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+driver = webdriver.Firefox()
+driver.maximize_window()
+driver.get("https://cldb-main.telekom.de:8085/Contract/Details?id=121869#contractPositions")
+driver.find_element(By.ID, 'UserName').send_keys("Mike.Steiner")
+driver.find_element(By.ID, 'Password').send_keys("FH58uo885H8GtUsL")
+driver.find_element(By.ID, 'loginButton').click()
+driver.find_element(By.ID, 'add-change-request-button').click()
+driver.find_element(By.CLASS_NAME, "ui-pnotify-closer").click()
+
+#option 1
+time.sleep(5)
+toolbar = driver.find_element(By.CLASS_NAME, 'navbar navbar-expand-md navbar-light action-bar')
+toolbar.find_element(By.ID, 'createKonkalProcess').click()
+#option 2
+time.sleep(5)
+driver.find_element(By.ID, 'createKonkalProcess').click()
+#option 3
+driver.implicitly_wait(5)
+driver.find_element(By.ID, 'createKonkalProcess').click()
