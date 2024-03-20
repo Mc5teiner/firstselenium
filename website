@@ -1,0 +1,1018 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="de"
+      lang="de">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no">
+
+    <title>V&#xC4; - Ecotel CSN 2.0 - 1008429</title>
+
+    <script>
+        var sessionIdleTimeout = 60;
+        var siteRootUrl = "/";
+        var emailRegex = "(^[-\\w.!$&%=?\\/]+@(?!.*\\.\\.)(?=\\w.*\\.)[-\\w.]+[\\w]$)";
+        var dateParseFormat = "dd.MM.yyyy;dd-MM-yyyy;dd,MM,yyyy;dd/MM/yyyy;d.M.yyyy;d-M-yyyy;d,M,yyyy;d/M/yyyy;d.M.yy;d-M-yy;d,M,yy;d/M/yy;ddMMyyyy";
+        var currentUserId = "10000096";
+        var monthDateFormat = "yyyy-MM";
+        var useGeographicAddressManagementApi = 'True';
+    </script>
+
+    
+
+    
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css?v=fXqQQ_S-0wP-KXSsTjuhDWshTnD3rlSXhrotNH3gX4E" />
+        <link rel="stylesheet" href="/icons/icomoon/styles.css?v=sFSOVaXDd__XxT-qUOfo-18BENUzpyS7B_puINZqX4o" />
+        <link rel="stylesheet" href="/lib/PNotify/pnotify.custom.css?v=CgaQr6dviLIYafOcCxxgL2GlhrLVZ5-OczXAIcgkflI" />
+        <link rel="stylesheet" href="/lib/kendo-ui/styles/kendo.common-office365.min.css?v=DX3qBAkPzqa1mgvMiFw_VYo82_9GXFlzeUelfpTYFUQ" />
+        <link rel="stylesheet" href="/lib/limitless/components.css?v=rsLyGWd9qd03bpJ9W683uL5WbJnsk2Ib7583M2Z4C5k" />
+
+
+        <!--
+        TODO: In Partial View übertragen
+        -->
+            <link rel="stylesheet" href="/dist/css/Main.min.css?v=q90GG-U2en7ZtQrQ16eQ1-HcxMZuajuCFUVOPR-lhcU" />
+    
+
+    
+
+    
+        <!-- Libs -->
+        <script src="/lib/jszip/dist/jszip.min.js?v=fFuZrrOFw4w_sfkQVLfmImNUhEdfGl6yOyb5ODiBKrc"></script>
+        <script src="/lib/jquery/dist/jquery.min.js?v=QSuP-cWrMrkBn82EvNSlTA4mWhRShHT07kWyeiCr6us"></script>
+        <script src="/lib/blockUI/jquery.blockui.min.js?v=zqqp_v6d1xUW8zCMwCXm8FEvnj3_o0COCvk6_Mj9BF4"></script>
+        <script src="/lib/moment/min/moment-with-locales.min.js?v=916FTSz6OkedQ15XqZhrGE8uXngDDkuxyHZIcpuDlnU"></script>
+        <script src="/lib/moment/dist/moment-range.js?v=hb9cOK179gXD5cJfrBTguLREdo4AFYSzWDo0zOHz6wU"></script>
+        <script src="/lib/kendo-ui/js/kendo.all.min.js?v=1WBxxr-3mGSXJKBhoINVIdNRZf0BnetuClJloe-DjvY"></script>
+        <script src="/lib/kendo-ui/js/kendo.aspnetmvc.min.js?v=M_bjrA-WxCnBk3i-TcBJTdvCzHneQ_Qc_SpGfk-OPUA"></script>
+        <script src="/lib/kendo-ui/js/cultures/kendo.culture.de-DE.min.js?v=qU6irIN6DN7Q1Iibqfn0gAjZ5A2k5XdiSYhqAtYSe38"></script>
+        <script src="/lib/kendo-ui/js/messages/kendo.messages.de-DE.min.js?v=c8_rRNa-6ZuGILMHIXovgQDiT29OJ-dGncANJBz-KWk"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.min.js?v=pFVdje6fityXboSpff6H5r9XlLV59Ju1bxM_7YX31wk"></script>
+        <script src="/lib/PNotify/pnotify.custom.min.js?v=qFYm66YMu1iUlciZkpBceu6zkptKHwMt4LwPT10PTtU"></script>
+        <script src="/lib/limitless/app.js?v=D9yd0s5WrSwDXaqiCdxtXNeCSg2kESW-nJ1GfIUwu9s"></script>
+        <script src="/lib/signalr/signalr.min.js?v=W_3w_gkLJbORdKiQ5TTJCrWGVHVY4K-dSR4dIGl1o58"></script>
+
+        <!-- App-Core-->
+        <script src="/dist/js/cldb-core.min.js?v=dpS5MPeVd53fVHSrm6O7xZlSLhJHq0OuTolR7YG5FjM"></script>
+
+        <script>
+            // disallow contextmenu on defined dom elements
+            $(document).ready(function () {
+                ContextMenuHelper.initGlobalContextMenu();
+                ContextMenuHelper.registerEventHandler();
+            });
+        </script>
+    
+
+    
+    <script>
+        siteRootUrl = "/";
+        siteControllerUrl = "/ContractChange";
+        priceChangeBusinessCaseEnabled = true;
+        confirmationPositionsLimit = 100;
+    </script>
+
+    <script src="/lib/moment/min/moment-with-locales.min.js?v=916FTSz6OkedQ15XqZhrGE8uXngDDkuxyHZIcpuDlnU"></script>
+
+    
+
+    
+        <script src="/dist/js/cldb-customer.min.js?v=TZONUV1jX-OikIfFIstVkn6xXboxLlbdlFRO-l5aBxU"></script>
+        <script src="/dist/js/cldb-contract.min.js?v=fUh73C-WqT4-z07AKWL0g3pozdisIU0ZlSa2bf5zDJE"></script>
+        <script src="/dist/js/cldb-contractchange.min.js?v=IHs7GdjI3Q1ovVJWf7P-lLQKEhL9SZPgkm33bpnEujU"></script>
+    
+
+    <script>
+        $(document).on("click", ".apply-button", ContractChangePositions.buttonClickHandler);
+    </script>
+
+
+
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js?v=6jNeHeX3s3Q-xkfB8YzWvr-gxbzIICjwRwqzzqITu8Q"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=9GycpJnliUjJDVDqP0UEu_bsm9U-3dnQUH8-3W10vkY"></script>
+
+
+
+</head>
+<body class="d-flex flex-column" data-role="form">
+    <div class="topbar shadow">
+        
+    
+
+
+
+
+<nav class="navbar navbar-main navbar-expand-md navbar-dark bg-magenta">
+    <img src="/images/T_logo_rgb_n.svg" alt="Telekom Logo" class="navbar-brand" style="width: 21px;" />
+
+    <div>
+        <ul class="navbar-nav flex-row d-sm-flex d-md-none d-lg-none">
+            <li class="nav-item">
+                <span class="nav-link" title="Ausgew&#xE4;hltes System: MAIN">MAIN</span>
+            </li>
+            <li class="nav-item">
+                <span class="nav-link" title="Benutzergruppe: CSN Alle">CSN Alle</span>
+            </li>
+        </ul>
+    </div>
+
+    <a class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </a>
+
+    <div class="collapse navbar-collapse text-center text-md-left" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/" id="homeButton" role="button">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" title="Navigationsmen&#xFC;" href="#" id="megaMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-contextmenu="false">
+                    <i class="icon-arrow-down22 pr-0 d-none d-md-inline"></i>
+                    <i class="icon-arrow-down22 pr-0 d-sm-inline d-md-none d-lg-none"></i>
+                </a>
+                <div class="dropdown-menu mega-menu k-shadow" aria-labelledby="megaMenuLink">
+                    
+
+<div class="row justify-content-md-center">
+
+    <div class="col-md-2">
+        <h2 class="pl-2 mt-2 mb-4"><strong>Home</strong></h2>
+
+        <ul class="nav-list">
+            <li>
+                <a id="homeItem" role="button" href="/"><i class='icon-home'></i>Dashboard</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-2">
+        <h2 class="pl-2 mt-2 mb-4"><strong>Stammdaten</strong></h2>
+
+        <ul class="nav-list">
+            <li>
+                <a id="customersItem" role="button" href="/Customer"><i class='icon-users4'></i> Kunden</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-2">
+        <h2 class="pl-2 mt-2 mb-4"><strong>Vertragsverwaltung</strong></h2>
+
+        <ul class="nav-list">
+            <li>
+                <a id="contractsItem" role="button" href="/Contract"><i class='icon-book3'></i> Vertr&#xE4;ge</a>
+            </li>
+            <li>
+                <a id="contractchangesItem" role="button" href="/ContractChange"><i class='icon-pencil'></i> Vertrags&#xE4;nderungen</a>
+            </li>
+            <li>
+                <a id="offersItem" role="button" href="/Offer"><i class='icon-file-empty2'></i> Budgetangebote</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-2">
+        <h2 class="pl-2 mt-2 mb-4"><strong>Weitere Funktionen</strong></h2>
+
+        <ul class="nav-list">
+            <li>
+                <a id="openSpecialConditionCommonVersions" role="button" href="#"><span class='k-icon k-i-percent'></span>Allgemeine Sonderkonditionen</a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $("#openSpecialConditionCommonVersions").click(megaMenuController.specialConditionCommonVersionsClickHandler);
+        $("#openValutaOverviews").click(megaMenuController.valutaOverviewsClickHandler);
+        $("#openInvoiceTransfers").click(megaMenuController.invoiceTransfersClickHandler);
+    });
+</script>
+
+                </div>
+            </li>
+
+            <li class="nav-divider big d-none d-md-inline"></li>
+         </ul>
+
+         <ul class="navbar-nav mr-auto">
+                <li class="nav-item">                
+                        <span class="sr-only">Sie sind hier:</span>
+
+                        <a class="nav-link" href="/ContractChange">
+                            Vertrags&#xE4;nderung
+                        </a>
+                </li>
+                    <li class="nav-divider"></li>
+                <li class="nav-item">                
+
+                        <span class="nav-link active">
+                            1008429
+                        </span>    
+                </li>
+        </ul>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <span class="nav-link d-none d-md-block" title="Ausgew&#xE4;hltes System: MAIN">MAIN</span>
+            </li>
+            <li class="nav-item">
+                <span class="nav-link d-none d-md-block user-group" title="Benutzergruppe: CSN Alle">CSN Alle</span>
+            </li>
+            <li class="nav-divider big"></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="helpMenuLink" role="button" aria-label="Hilfe Menü (Tastenkürzel: Strg + F1)" data-contextmenu="false">
+                    <span>Hilfe</span>
+                </a>
+            </li>
+            <li class="nav-divider big"></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="searchLink" role="button" aria-label="Suchen Menü" data-contextmenu="false">
+                    <span>Suchen</span>
+                </a>
+            </li>
+            <li class="nav-divider big"></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="batchFileListLink" role="button" aria-label="Batch-Liste" data-contextmenu="false">
+                    <span>Batch-Liste</span>
+                </a>
+            </li>
+            <li class="nav-divider big"></li>
+            <li class="nav-item" id="sessionTimer">
+                <a class="nav-link" href="#" id="sessionTimerContent" role="button" title="Sitzungszeit verl&#xE4;ngern" data-contextmenu="false">
+                    <i class="icon-history"></i>
+                    <span>60 min</span>
+                </a>
+            </li>
+            <li class="nav-divider big"></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="userMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-contextmenu="false">
+                    <span>Mike.Steiner</span>
+                    <i class="icon-arrow-down22"></i>
+                </a>
+                <div class="dropdown-menu k-shadow dropdown-menu-right" aria-labelledby="userMenuLink">
+                    <ul class="nav-list" role="menu">
+                        <li>
+                            <a role="menuitem" href="/Account/ChangeGroup">Gruppe &#xE4;ndern</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/Account/ResetPassword">Passwort &#xE4;ndern</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/Account/Details">Benutzerdaten</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" data-contextmenu="false" href="/Account/LoggedOut">Ausloggen</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<script type="text/javascript">
+    var sessionTimerFormat = "False" == "True" ? "mm:ss" : "mm";
+    var user = {"GroupName":"CSN Alle","SessionId":null,"LoginResultCode":0,"IsAdmin":false,"InvoiceTransferIsVisible":false,"OverviewValutaIsVisible":false,"IsDetailedErrorMessageEnabled":true,"IsEnableDDesktopNotification":true,"DiscountsEditable":false,"Id":"2e079ffb-efe9-4687-b6e5-aa90123f24ea","UserName":"Mike.Steiner","NormalizedUserName":null,"Email":null,"NormalizedEmail":null,"EmailConfirmed":false,"PasswordHash":null,"SecurityStamp":"5620101e-ad44-4e1c-8083-fe50b40a938e","ConcurrencyStamp":"8733083b-82c8-4788-af21-a533b64e17eb","PhoneNumber":null,"PhoneNumberConfirmed":false,"TwoFactorEnabled":false,"LockoutEnd":null,"LockoutEnabled":false,"AccessFailedCount":0};
+
+    $(document).ready(function () {
+        $("#helpMenuLink").click(toolBarController.helpClickHandler);
+        $('#searchLink').click(Search.openSearch);
+        $("#batchFileListLink").click(toolBarController.batchFileListClickHandler);
+        $('#sessionTimerContent').click(Tools.resetSessionTimerHandler);
+
+        WebNotifications.authorize(user.IsEnableDDesktopNotification);
+
+        //clicked-- > select first element
+        $('#userMenuLink').keydown(function (e) {
+            switch (e.which) {
+                case 32: //32 -> space
+                    $(this).click();
+                    break;
+                case 40: // down -> 40
+                    e.preventDefault();
+                    $(".dropdown-menu.show").find("a").first().focus();
+                    break;
+
+            }
+        });
+
+        $('.dropdown-menu a').keydown(function (e) {
+            switch (e.which) {
+                case 40: // down -> 40
+                    e.preventDefault();
+                    var nexta = $(this).parent().next().find('a');
+                    nexta.focus();
+                    break;
+                case 38: // up -> 38
+                    e.preventDefault();
+                    var preva = $(this).parent().prev().find('a');
+                    preva.focus();
+                    break;
+                //32 -> space
+            }
+        });
+    });
+
+</script>
+
+    
+
+<div class="navbar navbar-expand-md navbar-light action-bar">
+    <div id="action-toolbar" name="action-toolbar">
+        
+    </div><script>kendo.syncReady(function(){jQuery("#action-toolbar").kendoToolBar({"items":[{"enable":false,"id":"save-button","text":"\u003ci class=\u0027icon-floppy-disk\u0027\u003e\u003c/i\u003eSpeichern","type":"button","attributes":{"class":"k-primary save-button","data-activewhendirty":"","role":"button","aria-disabled":"true","disabled":"disabled","tabindex":"-1"}},{"enable":false,"id":"reset-button","text":"\u003ci class=\u0027icon-undo\u0027\u003e\u003c/i\u003eVerwerfen","type":"button","attributes":{"class":"reset-button","data-activeif":"ContractChangeDetails.resettable","role":"button","aria-disabled":"true","disabled":"disabled","tabindex":"-1"}},{"enable":false,"id":"totalValueCalculationButton","text":"\u003ci class=\u0027icon-calculator3\u0027\u003e\u003c/i\u003eGesamtwertberechnung","type":"button","attributes":{"data-id":"1008429","role":"button","data-activeif":"ContractChangeDetails.calculatable","disabled":"disabled"},"click":ContractChangeDetails.totalValueCalculationClickHandler},{"enable":false,"id":"setContractPrice","text":"\u003ci class=\u0027icon-coin-euro\u0027\u003e\u003c/i\u003eVertragspreis setzen","type":"button","attributes":{"data-id":"1008429","role":"button","data-activeif":"ContractChangeDetails.calculated","disabled":"disabled"},"click":ContractChangeDetails.setContractPriceClickHandler},{"enable":false,"id":"transferToContract","text":"\u003ci class=\u0027icon-add-to-list\u0027\u003e\u003c/i\u003eSofort in den Vertrag überführen","type":"button","attributes":{"data-id":"1008429","data-activeif":"ContractChangeDetails.transferable","role":"button","disabled":"disabled"},"click":ContractChangeDetails.transferToContractClickHandler},{"enable":false,"id":"discardContractChange","text":"\u003cspan class=\u0027k-icon k-i-x-outline\u0027\u003e\u003c/span\u003eVertragsänderung verwerfen","type":"button","attributes":{"data-id":"1008429","data-activeif":"ContractChangeDetails.discardable","role":"button","disabled":"disabled"},"click":ContractChangeDetails.discardClickHandler},{"enable":false,"id":"createKonkalProcess","text":"\u003ci class=\u0027icon-link\u0027\u003e\u003c/i\u003eVorgang anlegen","type":"button","attributes":{"data-id":"1008429","data-activeif":"ContractChangeDetails.createProcessIsAllowed","role":"button","disabled":"disabled"},"click":ContractChangeDetails.konkalCreateProcessClickHandler},{"enable":true,"id":"export-button","text":"\u003ci class=\u0027icon-download\u0027\u003e\u003c/i\u003eExportieren \u003ci class=\u0027icon-arrow-down22\u0027\u003e\u003c/i\u003e","type":"button","attributes":{"data-activeif":"ContractChangeDetails.exportable","role":"button"}},{"enable":false,"id":"import-button","template":jQuery('#fileUploadDialogTemplate').html(),"text":"File","type":"button","attributes":{"data-id":"1008429","data-contextmenu":"false"}}]});});</script>
+</div>
+
+<script>
+    $(function () {
+        if ('True' != 'True') {
+            toolBarController.toolbarActionDisableAllButtons();
+
+            
+        }
+
+        $('#action-toolbar').attr("tabindex", "-1");
+        if ($("#angId").val() != "") {
+            ContractChangeExports.addExportMenu();
+            KendoHelper.enable($('#export-button'), true);
+        }
+    });
+</script>
+
+
+    </div>
+
+    <div class="container-fluid pl-0 pr-0 d-flex flex-fill flex-column">
+        
+
+
+
+
+
+
+        <div id="alerts-container"></div>
+        
+    <div class="main-title">
+        <div class="main-title-container">
+            <div class="main-title-card">
+                <i class="icon-pencil"></i> 
+                <h1>
+                    <span class="sr-only">Vertrags&#xE4;nderung</span>
+                    ecotel communication ag - Ecotel CSN 2.0
+                </h1>
+            </div>
+            <div class="main-title-info">
+                <ul class="">
+                    <li>
+                        <label>Status</label><br />
+                        <text id="StatusKurztext">Vertrags&#xE4;nd. in Bearbeit.</text>
+                    </li>
+
+                    <li>
+                        <label>RRP einmalig</label><br />
+                        <text id="RrpOneTime" />
+                    </li>
+
+                    <li>
+                        <label>VP einmalig</label><br />
+                        <text id="ContractPriceOneTime" />
+                    </li>
+
+                    <li>
+                        <label>RRP monatlich</label><br />
+                        <text id="RrpMonthly" />
+                    </li>
+
+                    <li>
+                        <label>VP monatlich</label><br />
+                        <text id="ContractPriceMonthly" />
+                    </li>
+                    <li>
+                        <label for="ContractId">Vertrags-ID</label><br />
+                        <a href="/Contract/Details?id=121869">121869</a>
+                    </li>
+                    <li>
+                        <label for="comp_id">Kunden-ID</label><br />
+                        <a href="/Customer/Details?id=108938">108938</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        
+
+
+
+
+<div class="main-container p-0">
+    <div class="tabstrip"><ul class='nav nav-pills flex-shrink-0 pr-3 pt-3 pl-3'><li class="nav-item "><a aria-controls="contractChange" aria-selected="false" class="nav-link   " data-target="#contractChange" data-toggle="tab" href="#contractChange" role="tab"><h3>Allgemein</h3></a></li><li class="nav-item ignore-dirty"><a aria-controls="positions" aria-selected="true" class="nav-link active  ignore-dirty" data-target="#positions" data-toggle="tab" href="#positions" role="tab"><h3>Positionen</h3></a></li><li class="nav-item tabBadge"><a aria-controls="conflicts" aria-selected="false" class="nav-link   tabBadge" data-target="#conflicts" data-toggle="tab" href="#conflicts" role="tab"><h3>Konflikte</h3></a></li></ul><div class='tab-content' style='overflow-y: auto;'><div aria-labelledby="AllgemeinTab" class="tab-pane h-100  " id="contractChange" role="tabpanel">
+            
+
+<div class="row p-0">
+    <div class="col-lg-12 flex-fill">
+        <div class="card flat-card">
+            <div class="card-header">
+                <h4>Allgemeine Daten</h4>
+            </div>
+            <div class="card-body">
+                <div class="col-lg-6">
+                    <form id="contractChangeCommon" class="common-form">
+                        <input type="hidden" id="ang_id" name="ang_id" value="1008429" />
+                        <input type="hidden" data-val="true" data-val-required="The TimestampUpd field is required." id="TimestampUpd" name="TimestampUpd" value="20.03.2024 14:11:37" />
+                        <input type="hidden" data-val="true" data-val-required="The Kunden-ID field is required." id="comp_id" name="comp_id" value="108938" />
+                        <input type="hidden" id="ContractId" name="ContractId" value="121869" />
+                        <input type="hidden" data-val="true" data-val-required="The IsNew field is required." id="IsNew" name="IsNew" value="False" />
+                        <input type="hidden" id="DueDateAnsi" name="DueDateAnsi" value="" />
+                        
+                        <div class="row"><div class="col-lg-4"><label class="required" for="kalk_datum">Berechnungsdatum</label></div><div class="col-lg-8 form-input-container">
+                            <input placeholder="TT.MM.JJJJ" data-val="true" data-val-required="Das Feld &#x27;Berechnungsdatum&#x27; ist zum Speichern erforderlich." id="kalk_datum" name="kalk_datum" type="text" value="20.03.2024 00:00:00" /><script>kendo.syncReady(function(){jQuery("#kalk_datum").kendoDatePicker({"max":new Date(2026,11,31,0,0,0,0),"min":new Date(2019,0,1,0,0,0,0),"parseFormats":["dd.MM.yyyy","dd-MM-yyyy","dd,MM,yyyy","dd/MM/yyyy","d.M.yyyy","d-M-yyyy","d,M,yyyy","d/M/yyyy","d.M.yy","d-M-yy","d,M,yy","d/M/yy","ddMMyyyy"],"value":new Date(2024,2,20,0,0,0,0)});});</script>
+                            <span class="text-danger field-validation-valid" data-valmsg-for="kalk_datum" data-valmsg-replace="true"></span>
+                        </div></div>
+                        <div class="row"><div class="col-lg-4"><label for="IsErweiterung">Vertragserweiterung</label></div><div class="col-lg-8 form-input-container">
+                            <span class="k-widget k-checkbox-wrapper">
+                                <input type="checkbox" class="k-checkbox read-only" data-role="checkbox" data-validate="false" checked="checked" data-val="true" data-val-required="The Vertragserweiterung field is required." id="IsErweiterung" name="IsErweiterung" value="true">
+                                <label class="k-checkbox-label" for="IsErweiterung"></label>
+                            </span>
+                        </div></div>
+                        <div class="row"><div class="col-lg-4"><label for="angart_langtext">Ang.-Art</label></div><div class="col-lg-8 form-input-container">
+                            <input readonly type="text" class="k-textbox always-read-only" id="angart_langtext" name="angart_langtext" value="CSN 2.0 2022">
+                        </div></div>
+                        <div class="row"><div class="col-lg-4"><label class="required" for="projektname">Projektname</label></div><div class="col-lg-8 form-input-container">
+                            <input type="text" class="k-textbox" minlength="2" data-val="true" data-val-required="Das Feld &#x27;Projektname&#x27; ist zum Speichern erforderlich." id="projektname" name="projektname" value="Ecotel CSN 2.0" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="projektname" data-valmsg-replace="true"></span>
+                        </div></div>
+                        <div class="row"><div class="col-lg-4"><label for="Inserted">Angelegt am</label></div><div class="col-lg-8 form-input-container">
+                            <input readonly type="text" class="k-textbox always-read-only" id="Inserted" name="Inserted" value="20.03.2024 Mike Steiner" />
+                        </div></div>
+                        <div class="row"><div class="col-lg-4"><label for="Updated">Letzte Änderung am</label></div><div class="col-lg-8 form-input-container">
+                            <input readonly type="text" class="k-textbox always-read-only" id="Updated" name="Updated" value="20.03.2024 Mike Steiner" />
+                        </div></div>
+                        <div id="dueDateContainer" style="display:none">
+                            <div class="row"><div class="col-lg-4"><label for="DueDateDisplay">Stichtag (Preismaßnahme)</label></div><div class="col-lg-8 form-input-container">
+                                <input readonly type="text" class="k-textbox always-read-only" id="DueDateDisplay" name="DueDateDisplay" value="">
+                            </div></div>
+                        </div>
+                    <input name="IsErweiterung" type="hidden" value="false"></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+
+        if ($("#IsNew").val().toLowerCase() === "false") {
+            Tools.storeViewModels();
+        }
+    });
+</script>
+
+        </div><div aria-labelledby="PositionenTab" class="tab-pane h-100 active show ignore-dirty" id="positions" role="tabpanel">
+                
+
+
+<div data-default-layout="True" id="420fc3f6-a69c-4b10-bfec-6853590a21a5" name="ContractChange.ContractChangePositionsGridNormal"></div><script>kendo.syncReady(function(){jQuery("#420fc3f6-a69c-4b10-bfec-6853590a21a5").kendoGrid({"allowCopy":true,"excel":{"allPages":true,"fileName":"Vertragsänderungspositionen.xlsx","filterable":true,"forceProxy":true,"proxyURL":"/Base/SaveExcelExport"},"navigatable":true,"persistSelection":false,"sortable":{"allowUnsort":true,"showIndexes":true,"mode":"multiple"},"columns":[{"title":"Laufende Nummer","attributes":{"aria-readonly":"true"},"width":"150px","field":"ang_posnr_lfd","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Produkt-ID","attributes":{"aria-readonly":"true"},"width":"200px","field":"prod_id","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.integerPopupFilter,"cell":{"template":KendoHelper.integerFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"Positions-ID","attributes":{"aria-readonly":"true"},"hidden":true,"width":"200px","field":"ang_posid","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.integerPopupFilter,"cell":{"template":KendoHelper.integerFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"Kategorie","attributes":{"aria-readonly":"true"},"width":"200px","field":"prod_kat_langtext","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"enabled":false,"template":KendoHelper.disableFilterRowAutocomplete},"multi":true,"checkAll":false},"encoded":true,"editor":null},{"title":"Kurztext","attributes":{"aria-readonly":"true"},"width":"200px","field":"pos_kurztext","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Bezeichnung","attributes":{"aria-readonly":"true"},"width":"200px","field":"pos_bez","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Freischaltung","attributes":{"aria-readonly":"true"},"width":"200px","field":"freischaltung","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"enabled":false,"template":KendoHelper.disableFilterRowAutocomplete},"multi":true,"checkAll":false},"encoded":true,"editor":null},{"title":"Aktion","attributes":{"aria-readonly":"true"},"width":"200px","field":"aktion_langtext","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"enabled":false,"template":KendoHelper.disableFilterRowAutocomplete},"multi":true,"checkAll":false},"encoded":true,"editor":null},{"title":"Status im Vertrag","attributes":{"aria-readonly":"true"},"width":"200px","field":"status_kurztext","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Status","attributes":{"aria-readonly":"true"},"hidden":true,"width":"200px","field":"status_id","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.integerPopupFilter,"cell":{"template":KendoHelper.integerFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"MMZ (in Monaten)","attributes":{"aria-readonly":"true"},"width":"200px","field":"laufzeit","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.integerPopupFilter,"cell":{"template":KendoHelper.integerFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"Vertrieb","attributes":{"aria-readonly":"true"},"width":"200px","field":"vertrieb_langtext","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"enabled":false,"template":KendoHelper.disableFilterRowAutocomplete},"multi":true,"checkAll":false},"encoded":true,"editor":null},{"title":"Leitungsident","attributes":{"aria-readonly":"true"},"width":"200px","field":"leistungsident","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Ordnungsnummer","attributes":{"aria-readonly":"true"},"width":"200px","field":"ordn_nr","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"RRP einmalig","attributes":{"aria-readonly":"true"},"width":"200px","field":"einmalentgelt_rrp","format":"{0:c2}","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.numericPopupFilter,"cell":{"template":KendoHelper.numericFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"Richtpreis einmalig","attributes":{"aria-readonly":"true"},"width":"200px","field":"preis_e","format":"{0:c2}","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.numericPopupFilter,"cell":{"template":KendoHelper.numericFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"VP einmalig","attributes":{"aria-readonly":"true"},"width":"200px","field":"einmalentgelt_vp","format":"{0:c2}","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.numericPopupFilter,"cell":{"template":KendoHelper.numericFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"RRP monatlich","attributes":{"aria-readonly":"true"},"width":"200px","field":"monatsentgelt_rrp","format":"{0:c2}","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.numericPopupFilter,"cell":{"template":KendoHelper.numericFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"Richtpreis monatlich","attributes":{"aria-readonly":"true"},"width":"200px","field":"preis_m","format":"{0:c2}","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.numericPopupFilter,"cell":{"template":KendoHelper.numericFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"VP monatlich","attributes":{"aria-readonly":"true"},"width":"200px","field":"monatsentgelt_vp","format":"{0:c2}","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.numericPopupFilter,"cell":{"template":KendoHelper.numericFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"Standort A","attributes":{"aria-readonly":"true"},"width":"200px","field":"standort_a","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Standort B","attributes":{"aria-readonly":"true"},"width":"200px","field":"standort_b","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Redundanzlösung","attributes":{"aria-readonly":"true"},"width":"200px","field":"accessgroup_displayname","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Kfm. Ansprechpartner","attributes":{"aria-readonly":"true"},"width":"200px","field":"asp_bez","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Technischer Ansprechpartner","attributes":{"aria-readonly":"true"},"width":"200px","field":"techasp_bez","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Initialprodukt","attributes":{"aria-readonly":"true"},"width":"150px","field":"initial_bez","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Auftragspositionsnummer","attributes":{"aria-readonly":"true"},"width":"200px","field":"auftragspositionsnummer","sortable":{"compare":function (a, b, descending) {  var u = a.auftragspositionsnummer;  var v = b.auftragspositionsnummer;  return u.localeCompare(v, undefined, { numeric: true, sensitivity: 'base' });}},"filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Kopplungskenner (KonKal)","attributes":{"aria-readonly":"true"},"width":"150px","field":"kopplungskenner","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Projektkenner","attributes":{"aria-readonly":"true"},"width":"150px","field":"projektkenner","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Access Group-ID","attributes":{"aria-readonly":"true"},"width":"150px","field":"access_group_id","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Anschluss-ID","attributes":{"aria-readonly":"true"},"width":"150px","field":"anschluss_id","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Verbindungs-ID","attributes":{"aria-readonly":"true"},"width":"150px","field":"verbindungs_id","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Kunden-Referenz-Nr.","attributes":{"aria-readonly":"true"},"width":"150px","field":"referenz_nr","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"TESY-VNr.","attributes":{"aria-readonly":"true"},"width":"150px","field":"tesy_vnr","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.integerPopupFilter,"cell":{"template":KendoHelper.integerFilter},"checkAll":false},"encoded":true,"editor":null},{"title":"Bem. PAuf. A","attributes":{"aria-readonly":"true"},"width":"150px","field":"bemerkung_a","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Bem. PAuf. B","attributes":{"aria-readonly":"true"},"width":"150px","field":"bemerkung_b","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null},{"title":"Kundennetz","attributes":{"aria-readonly":"true"},"width":"200px","field":"kundennetz_displayname","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true,"editor":null}],"pageable":{"pageSizes":[20,50,200],"buttonCount":10,"messages":{"display":"Einträge {0} - {1} von {2}","empty":"keine Daten","page":"Seite","of":"von {0}","itemsPerPage":"Elemente pro Seite","first":"Zur ersten Seite","previous":"Zur vorherigen Seite","next":"Zur nächsten Seite","last":"Zur letzten Seite","refresh":"Aktualisieren","morePages":"Weitere Seiten"}},"selectable":{"mode":"Multiple, Row"},"filterable":{"mode":"menu, row","messages":{"info":"Zeilen mit Wert anzeigen, der","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"eq":"Ist gleich","neq":"Ist nicht gleich","startswith":"Beginnt mit","endswith":"Endet mit","contains":"Beinhaltet","doesnotcontain":"Beinhaltet nicht","isnull":"Null ist","isnotnull":"Ist angegeben","isempty":"Ist leer","isnotempty":"Ist nicht leer","isnullorempty":"Besitzt keinen Wert","isnotnullorempty":"Besitzt einen Wert"},"number":{"eq":"Ist gleich","neq":"Ist nicht gleich","gte":"Ist größer als oder gleich","gt":"Ist größer als","lte":"Ist kleiner als oder gleich","lt":"Ist kleiner","isnull":"Null ist","isnotnull":"nicht Null ist"},"date":{"eq":"Ist gleich","neq":"Ist nicht gleich","gte":"Ist nach oder gleich","gt":"Ist nach","lte":"Ist vor oder gleich","lt":"Ist vor","isnull":"Null ist","isnotnull":"nicht Null ist"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}}},"resizable":true,"reorderable":{"columns":true},"scrollable":{"height":"400px"},"editable":{"confirmation":"Sind Sie sicher, dass Sie diesen Datensatz löschen wollen?","confirmDelete":"Löschen","cancelDelete":"Abbrechen","mode":"popup","create":true,"update":true,"destroy":true,"template":"\u003cdiv class=\"window-header\"\u003e\u003cdiv class=\"window-subtitle\"\u003e\u003ca href=\"\" class=\"close-arrow\" role=\"button\" aria-label=\"Schließen\"\u003e\u003cspan class=\"icon-arrow-left7\"\u003e\u003c/span\u003e\u003c/a\u003e\u003cspan class=\u0027subtitle-text\u0027\u003eVertragsänderungsposition\u003c/span\u003e\u003c/div\u003e \u003cdiv class=\"d-flex justify-content-between bd-highlight\"\u003e\u003ch2 class=\u0027window-title\u0027\u003e\u003cspan class=\u0027sr-only\u0027\u003eVertragsänderungsposition\u003c/span\u003e\u003cspan data-bind=\"text: ang_posnr_lfd\"\u003e\u003c/span\u003e - \u003cspan data-bind=\"text: pos_bez\"\u003e\u003c/span\u003e\u003c/h2\u003e\u003cdiv\u003e\u003cul class=\"main-title-info-list\"\u003e    \u003cli\u003e        \u003clabel\u003eRRP einmalig\u003c/label\u003e\u003cbr /\u003e        \u003ctext class=\"contract-position-info rrp-one-time\"\u003e\u003c/text\u003e    \u003c/li\u003e    \u003cli\u003e        \u003clabel\u003eRP einmalig\u003c/label\u003e\u003cbr /\u003e        \u003ctext class=\"contract-position-info rp-one-time\"\u003e\u003c/text\u003e    \u003c/li\u003e    \u003cli\u003e        \u003clabel\u003eVP einmalig\u003c/label\u003e\u003cbr /\u003e        \u003ctext class=\"contract-position-info vp-one-time\"\u003e\u003c/text\u003e    \u003c/li\u003e    \u003cli\u003e        \u003clabel\u003eRRP monatlich\u003c/label\u003e\u003cbr /\u003e        \u003ctext class=\"contract-position-info rrp-monthly\"\u003e\u003c/text\u003e    \u003c/li\u003e    \u003cli\u003e        \u003clabel\u003eRP monatlich\u003c/label\u003e\u003cbr /\u003e        \u003ctext class=\"contract-position-info rp-monthly\"\u003e\u003c/text\u003e    \u003c/li\u003e    \u003cli\u003e        \u003clabel\u003eVP monatlich\u003c/label\u003e\u003cbr /\u003e        \u003ctext class=\"contract-position-info vp-monthly\"\u003e\u003c/text\u003e    \u003c/li\u003e    \u003cli class=\"tesy-vnr-container\" style=\"display:none;\"\u003e        \u003clabel\u003eTESY-VNr.\u003c/label\u003e\u003cbr\u003e        \u003ctext\u003e\u003cspan data-bind=\"text: tesy_vnr\"\u003e\u003c/span\u003e\u003c/text\u003e    \u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003cdiv class=\"window-toolbar\"\u003e    \u003ca href=\"\" name=\"save-button\" class=\"k-button k-button-icontext k-primary k-disabled save-button\" role=\"button\" disabled=\"disabled\" aria-disabled=\"true\" data-activewhendirty=\"\"\u003e\u003ci class=\"icon-floppy-disk\"\u003e\u003c/i\u003e Speichern\u003c/a\u003e    \u003ca href=\"\" name=\"reset-button\" class=\"k-button k-button-icontext k-disabled reset-button\" role=\"button\" disabled=\"disabled\" aria-disabled=\"true\" data-activewhendirty=\"\"\u003e\u003ci class=\u0027icon-undo\u0027\u003e\u003c/i\u003e Verwerfen\u003c/a\u003e    \u003ca       href=\"\\#\"       id=\"calculateContractChangePosition\"       class=\"k-button\"        role=\"button\"        data-activeif=\"ContractChangePositions.calculateEnabled\"       disabled\u003e        \u003ci class=\"icon-calculator\" /\u003e Berechnen    \u003c/a\u003e\u003c/div\u003e\u003cdiv class=\"window-content\"\u003e    \u003cdiv class=\"tabstrip\"\u003e\u003cul class=\u0027nav nav-pills flex-shrink-0 pr-3 \u0027\u003e\u003cli class=\"nav-item \"\u003e\u003ca aria-controls=\"contractChangePositionGeneral\" aria-selected=\"true\" class=\"nav-link active  \" data-target=\"\\#contractChangePositionGeneral\" data-toggle=\"tab\" href=\"\\#contractChangePositionGeneral\" role=\"tab\"\u003e\u003ch3\u003eAllgemein\u003c/h3\u003e\u003c/a\u003e\u003c/li\u003e\u003cli class=\"nav-item \"\u003e\u003ca aria-controls=\"contractChangePositionSubPositions\" aria-selected=\"false\" class=\"nav-link   \" data-dynamic-id=\"ang_posid\" data-dynamic-parameter=\"IsOffer\" data-tab-partial=\"/ContractChangeSubposition/SubpositionsTab?contractChangeId=1008429\" data-target=\"\\#contractChangePositionSubPositions\" data-toggle=\"ajax-tab\" href=\"\\#contractChangePositionSubPositions\" role=\"tab\"\u003e\u003ch3\u003eUnterpositionen\u003c/h3\u003e\u003c/a\u003e\u003c/li\u003e\u003cli class=\"nav-item \"\u003e\u003ca aria-controls=\"parameters\" aria-selected=\"false\" class=\"nav-link   \" data-dynamic-id=\"ang_posid\" data-dynamic-parameter=\"\" data-tab-partial=\"/ContractChangeParameter/ParameterTab?contractChangeId=1008429\" data-target=\"\\#parameters\" data-toggle=\"ajax-tab\" href=\"\\#parameters\" role=\"tab\"\u003e\u003ch3\u003eParameter\u003c/h3\u003e\u003c/a\u003e\u003c/li\u003e\u003cli class=\"nav-item \"\u003e\u003ca aria-controls=\"dates\" aria-selected=\"false\" class=\"nav-link   \" data-dynamic-id=\"ang_posid\" data-dynamic-parameter=\"\" data-tab-partial=\"/ContractChangePosition/DatesTab?contractChangeId=1008429\" data-target=\"\\#dates\" data-toggle=\"ajax-tab\" href=\"\\#dates\" role=\"tab\"\u003e\u003ch3\u003eTermine\u003c/h3\u003e\u003c/a\u003e\u003c/li\u003e\u003cli class=\"nav-item \"\u003e\u003ca aria-controls=\"references\" aria-selected=\"false\" class=\"nav-link   \" data-dynamic-id=\"ang_posid\" data-dynamic-parameter=\"referencesType\" data-tab-partial=\"/ContractChangePosition/ReferencesTab?contractChangeId=1008429\" data-target=\"\\#references\" data-toggle=\"ajax-tab\" href=\"\\#references\" role=\"tab\"\u003e\u003ch3\u003eBezüge\u003c/h3\u003e\u003c/a\u003e\u003c/li\u003e\u003c/ul\u003e\u003cdiv class=\u0027tab-content\u0027 style=\u0027overflow-y: auto;\u0027\u003e\u003cdiv aria-labelledby=\"AllgemeinTab\" class=\"tab-pane h-100 active show \" id=\"contractChangePositionGeneral\" role=\"tabpanel\"\u003e            \u003cinput type=\"hidden\" data-val=\"true\" data-val-number=\"The field Sb1Id must be a number.\" id=\"Sb1Id\" name=\"Sb1Id\" value=\"\" /\u003e\u003cinput type=\"hidden\" data-val=\"true\" data-val-number=\"The field Sb2Id must be a number.\" id=\"Sb2Id\" name=\"Sb2Id\" value=\"\" /\u003e\u003cinput type=\"hidden\" data-val=\"true\" data-val-required=\"The evpl_type field is required.\" id=\"evpl_type\" name=\"evpl_type\" value=\"\" /\u003e\u003cdiv class=\"card flat-card\"\u003e    \u003cdiv class=\"card-header\"\u003e        \u003ch4\u003eAllgemeine Daten und Produkt\u003c/h4\u003e    \u003c/div\u003e    \u003cdiv class=\"card-body\"\u003e        \u003cdiv class=\"col-lg-6\"\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"ang_posid\"\u003ePositions-ID\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput readonly class=\"k-textbox always-read-only\" placeholder=\"Wird automatisch eingef\u0026\\#xFC;gt\" type=\"number\" id=\"ang_posid\" name=\"ang_posid\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"ActionId\"\u003eAktion\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput id=\"ActionId\" name=\"ActionId\" type=\"text\" value=\"\" /\u003e\u003cscript\u003ekendo.syncReady(function(){jQuery(\"\\\\\\#ActionId\").kendoDropDownList({\"dataBound\":KendoHelper.setDropDownTitle,\"dataSource\":[{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"Neueinrichtung\",\"Value\":\"1\"},{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"Übernahme AGB/TDN\",\"Value\":\"7\"},{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"Neueinrichtung LLMC bei Aufhebung SFV,DDV, TDN-FV\",\"Value\":\"8\"},{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"Wandlung\",\"Value\":\"31\"}],\"dataTextField\":\"Text\",\"dataValueField\":\"Value\"});});\u003c\\/script\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel class=\"required\" for=\"laufzeit\"\u003eMMZ (in Monaten)\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput data-val=\"true\" data-val-range=\"Nur Werte von 0 bis 99999 sind erlaubt.\" data-val-range-max=\"99999\" data-val-range-min=\"0\" data-val-required=\"Das Feld \u0026\\#x27;MMZ (in Monaten)\u0026\\#x27; ist zum Speichern erforderlich.\" id=\"laufzeit\" max=\"99999\" min=\"0\" name=\"laufzeit\" type=\"text\" value=\"\"\u003e\u003c/input\u003e\u003cscript\u003ekendo.syncReady(function(){jQuery(\"\\\\\\#laufzeit\").kendoNumericTextBox({\"decimals\":0,\"format\":\"\\#\",\"max\":99999,\"min\":0,\"spinners\":false});});\u003c\\/script\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"ordn_nr\"\u003eOrdnungsnummer\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput class=\"k-textbox\" type=\"text\" data-val=\"true\" data-val-length=\"Die maximale L\u0026\\#xE4;nge betr\u0026\\#xE4;gt 16 Zeichen.\" data-val-length-max=\"16\" id=\"ordn_nr\" maxlength=\"16\" name=\"ordn_nr\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"referenz_nr\"\u003eKunden-Referenz-Nr.\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput class=\"k-textbox\" type=\"text\" data-val=\"true\" data-val-length=\"Die maximale L\u0026\\#xE4;nge betr\u0026\\#xE4;gt 50 Zeichen.\" data-val-length-max=\"50\" id=\"referenz_nr\" maxlength=\"50\" name=\"referenz_nr\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e        \u003c/div\u003e        \u003cdiv class=\"col-lg-6\"\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel class=\"required\" for=\"prod_id\"\u003eProdukt-ID\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cdiv class=\"input-group form-input-container\"\u003e                    \u003cinput readonly class=\"k-textbox always-read-only\" placeholder=\"Bitte Produkt w\u0026\\#xE4;hlen (Stift-Symbol)\" data-val-productidrequired=\"Das Feld \u0026\\#x27;Produkt-ID\u0026\\#x27; ist zum Speichern erforderlich.\" type=\"number\" data-val=\"true\" data-val-required=\"Das Feld \u0026\\#x27;Produkt-ID\u0026\\#x27; ist zum Speichern erforderlich.\" id=\"prod_id\" name=\"prod_id\" value=\"\" /\u003e                    \u003cspan class=\"text-danger field-validation-valid\" data-valmsg-for=\"prod_id\" data-valmsg-replace=\"true\"\u003e\u003c/span\u003e                    \u003cdiv class=\"input-group-append\"\u003e                        \u003ca id=\"selectProduct\" class=\"k-button h-100 button-input\" role=\"button\" title=\"Produkt ausw\u0026\\#xE4;hlen\" tabindex=\"0\"\u003e                            \u003ci class=\"icon-pencil pr-0\"\u003e\u003c/i\u003e                        \u003c/a\u003e                    \u003c/div\u003e                \u003c/div\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"Cluster\"\u003eCluster\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput readonly class=\"k-textbox always-read-only\" placeholder=\"Wird automatisch eingef\u0026\\#xFC;gt\" type=\"text\" id=\"Cluster\" name=\"Cluster\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"prod_kat_langtext\"\u003eKategorie\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput readonly class=\"k-textbox always-read-only\" placeholder=\"Wird automatisch eingef\u0026\\#xFC;gt\" type=\"text\" id=\"prod_kat_langtext\" name=\"prod_kat_langtext\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel class=\"required\" for=\"pos_bez\"\u003eBezeichnung\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput class=\"k-textbox\" type=\"text\" data-val=\"true\" data-val-required=\"Das Feld \u0026\\#x27;Bezeichnung\u0026\\#x27; ist zum Speichern erforderlich.\" id=\"pos_bez\" name=\"pos_bez\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"pos_kurztext\"\u003eKurztext\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput readonly class=\"k-textbox always-read-only\" placeholder=\"Wird automatisch eingef\u0026\\#xFC;gt\" type=\"text\" id=\"pos_kurztext\" name=\"pos_kurztext\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e        \u003c/div\u003e    \u003c/div\u003e    \u003cdiv class=\"ansprechpartner-card\"  style=\"display:none\"\u003e        \u003cdiv class=\"card-header\"\u003e            \u003ch4\u003eAnsprechpartner\u003c/h4\u003e        \u003c/div\u003e        \u003cdiv class=\"card-body\"\u003e            \u003cdiv class=\"col-lg-6\"\u003e                \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"asp_bez\"\u003eKfm. Ansprechpartner\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                    \u003cinput readonly class=\"k-textbox always-read-only\" type=\"text\" id=\"asp_bez\" name=\"asp_bez\" value=\"\" /\u003e                \u003c/div\u003e\u003c/div\u003e            \u003c/div\u003e            \u003cdiv class=\"col-lg-6\"\u003e                \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"techasp_bez\"\u003eTechnischer Ansprechpartner\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                    \u003cinput readonly class=\"k-textbox always-read-only\" type=\"text\" id=\"techasp_bez\" name=\"techasp_bez\" value=\"\" /\u003e                \u003c/div\u003e\u003c/div\u003e            \u003c/div\u003e        \u003c/div\u003e    \u003c/div\u003e    \u003cinput type=\"hidden\" id=\"access_group_id\" name=\"access_group_id\" value=\"\" /\u003e\u003cinput type=\"hidden\" id=\"SubAcGrpProdId\" name=\"SubAcGrpProdId\" value=\"\" /\u003e\u003cinput type=\"hidden\" id=\"evpl_type\" name=\"evpl_type\" value=\"\" /\u003e\u003cdiv class=\"locations-card\" style=\"display:none\"\u003e    \u003cdiv class=\"card-header\"\u003e        \u003ch4\u003e            Standorte / Bez\u0026\\#xFC;ge            \u003cdiv class=\"card-toolbar-item\"\u003e                \u003ca id=\"selectVpnReferenceButton\" class=\"k-button h-100 button-input\" role=\"button\" title=\"Standort A ausw\u0026\\#xE4;hlen\" tabindex=\"0\" style=\"display:none\"\u003e                    \u003ci class=\"icon-pencil pr-0\"\u003e\u003c/i\u003e                \u003c/a\u003e            \u003c/div\u003e        \u003c/h4\u003e    \u003c/div\u003e    \u003cdiv class=\"card-body\"\u003e        \u003cdiv class=\"col-lg-6\"\u003e            \u003cdiv class=\"row location-a-row\"\u003e                \u003cdiv class=\"col-lg-3\"\u003e                    \u003clabel class=\"required\" for=\"standort_a\"\u003eStandort A\u003c/label\u003e                \u003c/div\u003e                \u003cdiv class=\"col-lg-9\"\u003e                    \u003cdiv class=\"input-group form-input-container\"\u003e                        \u003cinput readonly class=\"k-textbox always-read-only\" data-val-sb1required=\"Das Feld \u0026\\#x27;Standort A\u0026\\#x27; ist zum Speichern erforderlich.\" type=\"text\" id=\"standort_a\" name=\"standort_a\" value=\"\" /\u003e                        \u003cspan class=\"text-danger field-validation-valid\" data-valmsg-for=\"standort_a\" data-valmsg-replace=\"true\"\u003e\u003c/span\u003e                        \u003cdiv class=\"input-group-append\"\u003e                            \u003ca id=\"selectLocationA\" class=\"k-button h-100 button-input\" role=\"button\" title=\"Standort A ausw\u0026\\#xE4;hlen\" tabindex=\"0\"\u003e                                \u003ci class=\"icon-pencil pr-0\"\u003e\u003c/i\u003e                            \u003c/a\u003e                        \u003c/div\u003e                    \u003c/div\u003e                \u003c/div\u003e            \u003c/div\u003e            \u003cdiv class=\"row location-b-row\"\u003e                \u003cdiv class=\"col-lg-3\"\u003e                    \u003clabel class=\"required\" for=\"standort_b\"\u003eStandort B\u003c/label\u003e                \u003c/div\u003e                \u003cdiv class=\"col-lg-9\"\u003e                    \u003cdiv class=\"input-group form-input-container\"\u003e                        \u003cinput readonly class=\"k-textbox always-read-only\" data-val-sb2required=\"Das Feld \u0026\\#x27;Standort B\u0026\\#x27; ist zum Speichern erforderlich.\" type=\"text\" id=\"standort_b\" name=\"standort_b\" value=\"\" /\u003e                        \u003cspan class=\"text-danger field-validation-valid\" data-valmsg-for=\"standort_b\" data-valmsg-replace=\"true\"\u003e\u003c/span\u003e                        \u003cdiv class=\"input-group-append\"\u003e                            \u003ca id=\"selectLocationB\" class=\"k-button h-100 button-input\" role=\"button\" title=\"Standort B ausw\u0026\\#xE4;hlen\" tabindex=\"0\"\u003e                                \u003ci class=\"icon-pencil pr-0\"\u003e\u003c/i\u003e                            \u003c/a\u003e                        \u003c/div\u003e                    \u003c/div\u003e                \u003c/div\u003e            \u003c/div\u003e            \u003cdiv class=\"row vpn-row vpn-template-row\" style=\"display:none\"\u003e                \u003cdiv class=\"col-lg-3\"\u003e                    \u003clabel\u003eAnschluss X:\u003c/label\u003e                \u003c/div\u003e                \u003cdiv class=\"col-lg-9\"\u003e                    \u003cdiv class=\"input-group form-input-container\"\u003e                        \u003cinput readonly class=\"k-textbox always-read-only\" value=\"\" /\u003e                    \u003c/div\u003e                \u003c/div\u003e            \u003c/div\u003e            \u003cdiv class=\"row kundennetz-row\" style=\"display:none\"\u003e                \u003cdiv class=\"col-lg-3 mt-2\"\u003e                    \u003clabel class=\"required\" for=\"kundennetz_displayname\"\u003eKundennetz\u003c/label\u003e                \u003c/div\u003e                \u003cdiv class=\"col-lg-9 mt-2\"\u003e                    \u003cdiv class=\"input-group form-input-container\"\u003e                        \u003cinput readonly class=\"k-textbox always-read-only\" data-val-customernetrequired=\"Das Feld \u0026\\#x27;Kundennetz\u0026\\#x27; ist zum Speichern erforderlich.\" type=\"text\" id=\"kundennetz_displayname\" name=\"kundennetz_displayname\" value=\"\" /\u003e                        \u003cspan class=\"text-danger field-validation-valid\" data-valmsg-for=\"kundennetz_displayname\" data-valmsg-replace=\"true\"\u003e\u003c/span\u003e                        \u003cdiv class=\"input-group-append\"\u003e                            \u003ca id=\"selectCustomerNet\" class=\"k-button h-100 button-input\" role=\"button\" title=\"Kundennetz ausw\u0026\\#xE4;hlen\" tabindex=\"0\"\u003e                                \u003ci class=\"icon-pencil pr-0\"\u003e\u003c/i\u003e                            \u003c/a\u003e                        \u003c/div\u003e                    \u003c/div\u003e                \u003c/div\u003e            \u003c/div\u003e            \u003cdiv class=\"row accessgroup-row\" style=\"display:none\"\u003e                \u003cdiv class=\"col-lg-3\"\u003e                    \u003clabel for=\"accessgroup_displayname\"\u003eRedundanzl\u0026\\#xF6;sung\u003c/label\u003e                \u003c/div\u003e                \u003cdiv class=\"col-lg-9\"\u003e                    \u003cdiv class=\"input-group form-input-container\"\u003e                        \u003cinput readonly class=\"k-textbox always-read-only\" placeholder=\"keine Access Group\" type=\"text\" id=\"accessgroup_displayname\" name=\"accessgroup_displayname\" value=\"\" /\u003e                        \u003cdiv class=\"input-group-append\"\u003e                            \u003ca id=\"selectAccessGroup\" class=\"k-button h-100 button-input\" role=\"button\" title=\"Access Group ausw\u0026\\#xE4;hlen\" tabindex=\"0\"\u003e                                \u003ci class=\"icon-pencil pr-0\"\u003e\u003c/i\u003e                            \u003c/a\u003e                        \u003c/div\u003e                    \u003c/div\u003e                \u003c/div\u003e            \u003c/div\u003e        \u003c/div\u003e        \u003cdiv class=\"col-lg-6 pauf_bemerkung-card\"\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"bemerkung_a\"\u003eBem. PAuf. A\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003ctextarea class=\"k-textbox\" cols=\"20\" rows=\"3\" data-val=\"true\" data-val-length=\"Die maximale L\u0026\\#xE4;nge betr\u0026\\#xE4;gt 1024 Zeichen.\" data-val-length-max=\"1024\" id=\"bemerkung_a\" maxlength=\"1024\" name=\"bemerkung_a\"\u003e\u003c/textarea\u003e                \u003cspan class=\"text-danger field-validation-valid\" data-valmsg-for=\"bemerkung_a\" data-valmsg-replace=\"true\"\u003e\u003c/span\u003e            \u003c/div\u003e\u003c/div\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"bemerkung_b\"\u003eBem. PAuf. B\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003ctextarea class=\"k-textbox\" cols=\"20\" rows=\"3\" data-val=\"true\" data-val-length=\"Die maximale L\u0026\\#xE4;nge betr\u0026\\#xE4;gt 1024 Zeichen.\" data-val-length-max=\"1024\" id=\"bemerkung_b\" maxlength=\"1024\" name=\"bemerkung_b\"\u003e\u003c/textarea\u003e                \u003cspan class=\"text-danger field-validation-valid\" data-valmsg-for=\"bemerkung_b\" data-valmsg-replace=\"true\"\u003e\u003c/span\u003e            \u003c/div\u003e\u003c/div\u003e        \u003c/div\u003e    \u003c/div\u003e\u003c/div\u003e\u003cscript\u003e    $(function () {        $(\"\\#selectLocationA\").click(ContractChangePositions.buttonClickHandler);        $(\"\\#selectLocationB\").click(ContractChangePositions.buttonClickHandler);        $(\"\\#selectVpnReferenceButton\").click(ContractChangePositions.selectVpnReference);        $(\"\\#selectCustomerNet\").click(ContractChangePositions.selectCustomerNet);        $(\"\\#selectAccessGroup\").click(ContractChangePositions.selectAccessGroup);        Validator.addMethod(\"sb1required\", ContractChangePositions.sb1RequiredValidation);        Validator.addMethod(\"sb2required\", ContractChangePositions.sb2RequiredValidation);        Validator.addMethod(\"customernetrequired\", ContractChangePositions.customerNetRequiredValidation);        var isOffer = $(\u0027\\#IsOffer\u0027).val().toLowerCase() === \"true\";        if (isOffer) {            $(\u0027.pauf_bemerkung-card\u0027).hide();        }    });\u003c\\/script\u003e    \u003cdiv class=\"last-edit-card\"\u003e    \u003cdiv class=\"card-header\"\u003e        \u003ch4\u003e            Letzte \u0026\\#xC4;nderungen        \u003c/h4\u003e    \u003c/div\u003e    \u003cdiv class=\"card-body\"\u003e        \u003cdiv class=\"col-lg-6\"\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"Inserted\"\u003eAngelegt am\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput readonly class=\"k-textbox always-read-only\" type=\"text\" id=\"Inserted\" name=\"Inserted\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e        \u003c/div\u003e        \u003cdiv class=\"col-lg-6\"\u003e            \u003cdiv class=\"row\"\u003e\u003cdiv class=\"col-lg-4\"\u003e\u003clabel for=\"Updated\"\u003eLetzte Änderung am\u003c/label\u003e\u003c/div\u003e\u003cdiv class=\"col-lg-8 form-input-container\"\u003e                \u003cinput readonly class=\"k-textbox always-read-only\" type=\"text\" id=\"Updated\" name=\"Updated\" value=\"\" /\u003e            \u003c/div\u003e\u003c/div\u003e        \u003c/div\u003e    \u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003cscript\u003e    $(function () {        $(\"\\#selectLocationA\").click(ContractChangePositions.buttonClickHandler);        $(\"\\#selectLocationB\").click(ContractChangePositions.buttonClickHandler);        $(\"\\#selectProduct\").click(ContractChangePositions.buttonClickHandler);        Validator.addMethod(\"sb1required\", ContractChangePositions.sb1RequiredValidation);        Validator.addMethod(\"sb2required\", ContractChangePositions.sb2RequiredValidation);        Validator.addMethod(\"productidrequired\", ContractChangePositions.productIdRequiredValidation);        if ($(\"\\#prod_id\").val() === \"\") {            KendoHelper.startProgress($(\"\\#selectProduct\"));            KendoHelper.block(Windows.getTopWindow());            var event = new Event(\u0027test\u0027, {                bubbles: true,                cancelable: true            });            ContractChangePositions.selectProduct(event);        }        var isOffer = $(\u0027\\#IsOffer\u0027).val().toLowerCase() === \"true\";        if (!isOffer \u0026\u0026 $(\u0027\\#vorgangId\u0027).val() !== \"0\" \u0026\u0026 $(\u0027\\#vorgangId\u0027).val() !== \"\") {            $(\u0027.ansprechpartner-card\u0027).show();        }    });\u003c\\/script\u003e        \u003c/div\u003e\u003cdiv aria-labelledby=\"UnterpositionenTab\" class=\"tab-pane h-100  \" id=\"contractChangePositionSubPositions\" role=\"tabpanel\"\u003e\u003c/div\u003e\u003cdiv aria-labelledby=\"ParameterTab\" class=\"tab-pane h-100  \" id=\"parameters\" role=\"tabpanel\"\u003e\u003c/div\u003e\u003cdiv aria-labelledby=\"TermineTab\" class=\"tab-pane h-100  \" id=\"dates\" role=\"tabpanel\"\u003e\u003c/div\u003e\u003cdiv aria-labelledby=\"Bez\u0026\\#xFC;geTab\" class=\"tab-pane h-100  \" id=\"references\" role=\"tabpanel\"\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e    \u003cinput type=\"hidden\" id=\"ang_posid\" name=\"ang_posid\" value=\"\" /\u003e    \u003cinput type=\"hidden\" id=\"referencesType\" value=\"1\" /\u003e\u003c/div\u003e\u003cscript\u003e    $(function () {        $(\"\\#calculateContractChangePosition\").click(ContractChangePositions.calculate);        KendoHelper.enable($(\".save-button\"), false);        $(\"[data-target=\u0027\\#references\u0027]\").parent().hide();        var isOffer = $(\u0027\\#IsOffer\u0027).val().toLowerCase() === \"true\";        if (isOffer) {            $(\u0027a[data-target=\"\\#dates\"]\u0027).hide();        }    });\u003c\\/script\u003e","window":{"scrollable":true,"content":null,"actions":["Close"],"resizable":false,"modal":true,"title":"Bearbeiten","draggable":true}},"toolbar":[{"attr":" disabled=\"disabled\" class=\"k-grid-add-button k-disabled\" data-activeif=\"ContractChangePositions.insertPositionsEnabled\"","text":"Neu","name":"create"},{"attr":" role=\"button\" id=\"insertContractPositions\" class=\"k-disabled\" disabled=\"disabled\" data-activewheneditable=\"\" data-activeif=\"ContractChangePositions.insertPositionsEnabled\"","text":"\u003ci class=\u0027icon-stack-check\u0027\u003e\u003c/i\u003eAus Vertrag übernehmen","name":"insert-contract-positions"},{"attr":" role=\"button\" id=\"priceChange\" class=\"k-disabled\" disabled=\"disabled\" data-activewheneditable=\"\" data-activeif=\"ContractChangePositions.priceChangeEnabled\"","text":"\u003ci class=\u0027icon-coin-euro\u0027\u003e\u003c/i\u003ePreismaßnahme","name":"price-change"},{"attr":" role=\"button\" id=\"unlockPositions\" class=\"toolbar-menu k-button-icontext\" aria-haspopup=\"true\"","text":"\u003ci class=\u0027icon-unlocked2\u0027\u003e\u003c/i\u003eFreischaltung\u003ci class=\u0027icon-arrow-down22\u0027\u003e\u003c/i\u003e","name":"unlock-positions"},{"attr":" role=\"button\" class=\"action-button disabled\" data-callback=\"ContractChangePositions.deleteSelected\" data-activeif=\"ContractChangePositions.deleteEnabled\" disabled=\"disabled\"","text":"\u003cspan class=\u0027k-icon k-i-delete\u0027\u003e\u003c/span\u003e Löschen","name":"delete-contract-change-positions"},{"attr":" role=\"button\" id=\"contractChangePositionsMassFunctions\" class=\"toolbar-menu k-button-icontext k-disabled disabled\" aria-haspopup=\"true\" data-activeif=\"ContractChangePositions.massFunctionsEnabled\" disabled=\"disabled\"","text":"\u003ci class=\u0027icon-stack\u0027\u003e\u003c/i\u003eMassenfunktionen\u003ci class=\u0027icon-arrow-down22\u0027\u003e\u003c/i\u003e","name":"mass-functions"},{"attr":" id=\"filterBySelection\" aria-label=\"Nur selektierte anzeigen aktiviert\"","text":"\u003cspan class=\u0027k-icon k-i-borders-show-hide\u0027\u003e\u003c/span\u003eNur selektierte anzeigen\u003clabel class=\u0027switch\u0027\u003e\u003cspan class=\u0027slider round\u0027\u003e\u003c/span\u003e\u003c/label\u003e","name":"filter-by-user"},{"attr":" id=\"refreshGrid\"","text":"\u003ci class=\u0027icon-sync\u0027\u003e\u003c/i\u003e Aktualisieren","name":"refresh"},{"attr":" role=\"button\" class=\"k-disabled\" disabled=\"disabled\" id=\"removeAllFiltersButton\"","text":"\u003cspan class=\u0027k-icon k-i-filter-clear\u0027\u003e\u003c/span\u003e Alle Filter entfernen","name":"remove-all-filters"},{"attr":" role=\"button\" class=\"k-disabled\" disabled=\"disabled\" id=\"removeAllSortsButton\"","text":"\u003cspan class=\u0027k-icon k-i-sort-clear\u0027\u003e\u003c/span\u003e Alle Sortierungen entfernen","name":"remove-all-sorts"}],"dataSource":{"type":(function(){if(kendo.data.transports['webapi']){return 'webapi';} else{throw new Error('The kendo.aspnetmvc.min.js script is not included.');}})(),"transport":{"read":{"url":"/ContractChangePosition/ContractChangePositionsReadAll?contractChangeId=1008429"},"prefix":"","update":{"url":"/ContractChangePosition/ContractChangePositionUpdate?contractChangeId=1008429","data":kendo.antiForgeryTokens},"create":{"url":"/ContractChangePosition/ContractChangePositionCreate?contractChangeId=1008429","data":kendo.antiForgeryTokens},"destroy":{"url":"/ContractChangePosition/ContractChangePositionDelete?contractChangeId=1008429","data":kendo.antiForgeryTokens},"idField":"ang_posid"},"pageSize":50,"page":1,"groupPaging":false,"total":0,"serverPaging":true,"serverSorting":true,"serverFiltering":true,"serverGrouping":true,"serverAggregates":true,"sort":[{"field":"ang_posnr_lfd","dir":"asc"}],"filter":[],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"id":"ang_posid","fields":{"ang_posnr_lfd":{"type":"string"},"prod_id":{"type":"string"},"ang_posid":{"type":"string"},"prod_kat_langtext":{"type":"string"},"pos_kurztext":{"type":"string"},"pos_bez":{"type":"string"},"freischaltung":{"type":"string"},"aktion_langtext":{"type":"string"},"status_kurztext":{"type":"string"},"status_id":{"type":"number","defaultValue":null},"laufzeit":{"type":"number","defaultValue":null},"vertrieb_id":{"type":"number"},"vertrieb_langtext":{"type":"string"},"leistungsident":{"type":"string"},"ordn_nr":{"type":"string"},"einmalentgelt_rrp":{"type":"number","defaultValue":null},"preis_e":{"type":"number","defaultValue":null},"einmalentgelt_vp":{"type":"number","defaultValue":null},"monatsentgelt_rrp":{"type":"number","defaultValue":null},"preis_m":{"type":"number","defaultValue":null},"monatsentgelt_vp":{"type":"number","defaultValue":null},"standort_a":{"type":"string"},"standort_b":{"type":"string"},"accessgroup_displayname":{"type":"string"},"asp_bez":{"type":"string"},"asp_id":{"type":"number"},"techasp_bez":{"type":"string"},"techasp_id":{"type":"number"},"angelegt":{"type":"string"},"geaendert":{"type":"string"},"ActionId":{"type":"string"},"Cluster":{"type":"string"},"PosKurztext":{"type":"string"},"DesiredDate":{"type":"date","defaultValue":null},"OrderDate":{"type":"date","defaultValue":null},"initial_bez":{"type":"string"},"auftragspositionsnummer":{"type":"string"},"kopplungskenner":{"type":"string"},"projektkenner":{"type":"string"},"access_group_id":{"type":"string"},"anschluss_id":{"type":"string"},"verbindungs_id":{"type":"string"},"referenz_nr":{"type":"string"},"tesy_vnr":{"type":"number","defaultValue":null},"bemerkung_a":{"type":"string"},"bemerkung_b":{"type":"string"},"ShowReferences":{"type":"boolean"},"ReferencesType":{"type":"number"},"prodtype":{"type":"number","defaultValue":null},"SubAcGrpProdId":{"type":"string"},"sortcol":{"type":"number"},"Sb1Id":{"type":"number","defaultValue":null},"Sb2Id":{"type":"number","defaultValue":null},"Aktion":{"type":"string"},"Sb1Typ":{"type":"string"},"Sb2Typ":{"type":"string"},"Sb1StandortId":{"type":"number"},"Sb2StandortId":{"type":"number"},"IsOrdnNrReadonly":{"type":"boolean"},"IsSb1Readonly":{"type":"boolean"},"IsSb2Readonly":{"type":"boolean"},"VpnReferencesReadonly":{"type":"boolean"},"AspDisplayName":{"type":"string"},"AspId":{"type":"number","defaultValue":null},"TechAspDisplayName":{"type":"string"},"TechAspId":{"type":"number","defaultValue":null},"CanAenderung":{"type":"boolean"},"CanDelete":{"type":"boolean"},"CanGeschaeftsfall":{"type":"boolean"},"CanKuendigung":{"type":"boolean"},"CanOrtswechsel":{"type":"boolean"},"CanProduktwechsel":{"type":"boolean"},"IsOffer":{"type":"boolean"},"evpl_type":{"type":"number"},"kundennetz_displayname":{"type":"string"},"kundennetz_id":{"type":"number"},"Inserted":{"type":"string"},"Updated":{"type":"string"},"CanEdit":{"type":"boolean"},"TimestampUpd":{"type":"date"},"searchString":{"type":"string"}}}}}});});</script>
+
+    <div style="display:none;">
+        <ul class="k-menu-vertical k-menu k-context-menu k-header k-reset k-widget" id="contextMenu_420fc3f6-a69c-4b10-bfec-6853590a21a5"><li class="copy-value-item k-state-default k-item" id="copyText"><span class="k-menu-link k-link">Wert kopieren</span></li></ul><script>kendo.syncReady(function(){jQuery("#contextMenu_420fc3f6-a69c-4b10-bfec-6853590a21a5").kendoContextMenu({"select":KendoHelper.gridContextMenuSelectHandler,"open":KendoHelper.openContextMenuHandler,"filter":"td","target":"#420fc3f6-a69c-4b10-bfec-6853590a21a5"});});</script>
+    </div>
+
+<input id="searchString" type="hidden" />
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var gridOptions = {"Columns":[{"Field":"ang_posnr_lfd","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"prod_id","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"ang_posid","Width":200,"Hidden":true,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"prod_kat_langtext","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":true,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"pos_kurztext","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"pos_bez","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"freischaltung","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":true,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"aktion_langtext","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":true,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"status_kurztext","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"status_id","Width":200,"Hidden":true,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"laufzeit","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"vertrieb_langtext","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":true,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"leistungsident","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"ordn_nr","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"einmalentgelt_rrp","Width":200,"Hidden":false,"Type":"System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e","AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"preis_e","Width":200,"Hidden":false,"Type":"System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e","AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"einmalentgelt_vp","Width":200,"Hidden":false,"Type":"System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e","AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"monatsentgelt_rrp","Width":200,"Hidden":false,"Type":"System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e","AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"preis_m","Width":200,"Hidden":false,"Type":"System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e","AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"monatsentgelt_vp","Width":200,"Hidden":false,"Type":"System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e","AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"standort_a","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"standort_b","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"accessgroup_displayname","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"asp_bez","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"techasp_bez","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"initial_bez","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"auftragspositionsnummer","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":true,"Format":null},{"Field":"kopplungskenner","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"projektkenner","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"access_group_id","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"anschluss_id","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"verbindungs_id","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"referenz_nr","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"tesy_vnr","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"bemerkung_a","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"bemerkung_b","Width":150,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"kundennetz_displayname","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null}],"Sort":[{"Field":"ang_posnr_lfd","Dir":"asc"}],"DefaultFilterString":"","UserdefinedFilterString":null,"GridTypes":[{"Key":"prod_id","Value":"System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"},{"Key":"ang_posid","Value":"System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"}],"IdColumns":["ang_posid"],"EmphasizeFlagFields":[],"DisableFlagFields":[],"IsStandard":true,"IsGridProfileInvalid":false};
+        gridOptions.editingEnabledField = "GewaehltJn";
+        gridOptions.multiSelect = true;
+        gridOptions.gridsToSync = ["ContractChange.ContractChangeConflictsGridNormal"];
+        gridOptions.filterString = $('#searchString').val();
+
+        contractChangePositionsGridController = new ContractChangePositionsGridController('420fc3f6-a69c-4b10-bfec-6853590a21a5', gridOptions);
+    });
+</script>
+
+<input type="hidden" id="ReferencesFilterTaskId" name="ReferencesFilterTaskId" value="" />
+
+        </div><div aria-labelledby="KonflikteTab" class="tab-pane h-100  tabBadge" id="conflicts" role="tabpanel">
+                
+
+
+<div data-default-layout="True" id="2d3e094d-bae1-429e-a2ac-a14fc6943dce" name="ContractChange.ContractChangeConflictsGridNormal"></div><script>kendo.syncReady(function(){jQuery("#2d3e094d-bae1-429e-a2ac-a14fc6943dce").kendoGrid({"allowCopy":true,"excel":{"allPages":true,"fileName":"Konflikte.xlsx","filterable":true,"forceProxy":true,"proxyURL":"/Base/SaveExcelExport"},"navigatable":true,"persistSelection":true,"sortable":{"allowUnsort":true,"showIndexes":true,"mode":"multiple"},"columns":[{"title":"Erledigt","attributes":{"class":"editable","aria-readonly":"false"},"width":"200px","template":"\u003cinput class=\u0027k-checkbox\u0027 type=\u0027checkbox\u0027# if (IsErledigt) { #checked=\u0027checked\u0027# } #/\u003e","field":"IsErledigt","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":" Ja ","isFalse":" Nein ","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"checkAll":false},"encoded":true,"editor":"\r\n\u003cinput data-val=\"true\" data-val-required=\"The Erledigt field is required.\" id=\"IsErledigt\" name=\"IsErledigt\" type=\"checkbox\" value=\"true\" /\u003e\u003cinput name=\"IsErledigt\" type=\"hidden\" value=\"false\" /\u003e\u003cscript\u003ekendo.syncReady(function(){jQuery(\"#IsErledigt\").kendoCheckBox({\"checked\":false});});\u003c/script\u003e\u003cspan class=\"field-validation-valid\" data-valmsg-for=\"IsErledigt\" data-valmsg-replace=\"true\"\u003e\u003c/span\u003e"},{"title":"Laufende Nummer","attributes":{"aria-readonly":"true"},"width":"200px","field":"PosnrLfd","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true},{"title":"Beschreibung","attributes":{"aria-readonly":"true"},"width":"600px","field":"Beschreibung","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true},{"title":"Vorgang","attributes":{"aria-readonly":"true"},"width":"400px","field":"Vorgang","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true},{"title":"Verursacher","attributes":{"aria-readonly":"true"},"width":"300px","field":"Verursacher","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true},{"title":"Angelegt","attributes":{"aria-readonly":"true"},"width":"300px","field":"Angelegt","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"cell":{"template":KendoHelper.disableFilterRowAutocomplete},"checkAll":false},"encoded":true},{"title":"Konflikt-ID","attributes":{"aria-readonly":"true"},"hidden":true,"width":"150px","field":"Id","filterable":{"messages":{"info":"Filter-Operationen","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"contains":"beinhaltet","doesnotcontain":"beinhaltet nicht","eq":"ist gleich","neq":"ist nicht gleich","startswith":"beginnt mit","endswith":"endet mit","isnullorempty":"ist leer","isnotnullorempty":"ist nicht leer"},"number":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist größer als","gte":"Ist größer als oder gleich","lt":"Ist kleiner als","lte":"Ist kleiner als oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"date":{"eq":"ist gleich","neq":"ist nicht gleich","gt":"Ist nach","gte":"Ist nach oder gleich","lt":"Ist vor","lte":"Ist vor oder gleich","isnull":"ist leer","isnotnull":"ist nicht leer"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}},"ui":KendoHelper.integerPopupFilter,"cell":{"template":KendoHelper.integerFilter},"checkAll":false},"encoded":true}],"pageable":{"pageSizes":[20,50,200],"buttonCount":10,"messages":{"display":"Einträge {0} - {1} von {2}","empty":"keine Daten","page":"Seite","of":"von {0}","itemsPerPage":"Elemente pro Seite","first":"Zur ersten Seite","previous":"Zur vorherigen Seite","next":"Zur nächsten Seite","last":"Zur letzten Seite","refresh":"Aktualisieren","morePages":"Weitere Seiten"}},"selectable":{"mode":"Multiple, Row"},"filterable":{"mode":"menu, row","messages":{"info":"Zeilen mit Wert anzeigen, der","title":"Zeilen mit Wert anzeigen, der","isTrue":"richtig","isFalse":"falsch","filter":"Filtern","clear":"Löschen","and":"und","or":"oder","selectValue":"-Wählen Sie-","value":"Wert","search":"Suchen","buttonTitle":"{0} filter column settings"},"operators":{"string":{"eq":"Ist gleich","neq":"Ist nicht gleich","startswith":"Beginnt mit","endswith":"Endet mit","contains":"Beinhaltet","doesnotcontain":"Beinhaltet nicht","isnull":"Null ist","isnotnull":"Ist angegeben","isempty":"Ist leer","isnotempty":"Ist nicht leer","isnullorempty":"Besitzt keinen Wert","isnotnullorempty":"Besitzt einen Wert"},"number":{"eq":"Ist gleich","neq":"Ist nicht gleich","gte":"Ist größer als oder gleich","gt":"Ist größer als","lte":"Ist kleiner als oder gleich","lt":"Ist kleiner","isnull":"Null ist","isnotnull":"nicht Null ist"},"date":{"eq":"Ist gleich","neq":"Ist nicht gleich","gte":"Ist nach oder gleich","gt":"Ist nach","lte":"Ist vor oder gleich","lt":"Ist vor","isnull":"Null ist","isnotnull":"nicht Null ist"},"enums":{"eq":"Ist gleich","neq":"Ist nicht gleich","isnull":"Null ist","isnotnull":"nicht Null ist"}}},"resizable":true,"reorderable":{"columns":true},"scrollable":{"height":"400px"},"editable":{"confirmation":"Sind Sie sicher, dass Sie diesen Datensatz löschen wollen?","confirmDelete":"Löschen","cancelDelete":"Abbrechen","mode":"incell","create":true,"update":true,"destroy":true,"template":null},"toolbar":[{"attr":" id=\"refreshGrid\"","text":"\u003ci class=\u0027icon-sync\u0027\u003e\u003c/i\u003e Aktualisieren","name":"refresh"},{"attr":" role=\"button\" class=\"k-disabled\" disabled=\"disabled\" id=\"removeAllFiltersButton\"","text":"\u003cspan class=\u0027k-icon k-i-filter-clear\u0027\u003e\u003c/span\u003e Alle Filter entfernen","name":"remove-all-filters"},{"attr":" role=\"button\" class=\"k-disabled\" disabled=\"disabled\" id=\"removeAllSortsButton\"","text":"\u003cspan class=\u0027k-icon k-i-sort-clear\u0027\u003e\u003c/span\u003e Alle Sortierungen entfernen","name":"remove-all-sorts"}],"dataSource":{"type":(function(){if(kendo.data.transports['webapi']){return 'webapi';} else{throw new Error('The kendo.aspnetmvc.min.js script is not included.');}})(),"transport":{"read":{"url":"/ContractChange/ConflictsReadAll?contractChangeId=1008429"},"prefix":"","update":{"url":"/ContractChange/ContractChangeConflictUpdate?contractChangeId=1008429","data":kendo.antiForgeryTokens},"idField":"Id"},"pageSize":50,"page":1,"groupPaging":false,"total":0,"sort":[{"field":"Id","dir":"asc"}],"schema":{"data":"Data","total":"Total","errors":"Errors","model":{"id":"Id","fields":{"IsErledigt":{"type":"boolean"},"PosnrLfd":{"editable":false,"type":"string"},"Beschreibung":{"editable":false,"type":"string"},"Vorgang":{"editable":false,"type":"string"},"Verursacher":{"editable":false,"type":"string"},"Angelegt":{"editable":false,"type":"string"},"Id":{"editable":false,"type":"number","defaultValue":null},"ChangedProperties":{"type":"object"},"CollectionKey":{"type":"string"},"PAngId":{"type":"string"},"PSessionid":{"type":"string"},"Inserted":{"type":"string"},"Updated":{"type":"string"},"CanEdit":{"type":"boolean"},"TimestampUpd":{"type":"date"},"searchString":{"type":"string"}}}},"batch":true}});});</script>
+
+<div style="display:none;">
+    <ul class="k-menu-vertical k-menu k-context-menu k-header k-reset k-widget" id="contextMenu_2d3e094d-bae1-429e-a2ac-a14fc6943dce"><li class="copy-value-item k-state-default k-item" id="copyText"><span class="k-menu-link k-link">Wert kopieren</span></li></ul><script>kendo.syncReady(function(){jQuery("#contextMenu_2d3e094d-bae1-429e-a2ac-a14fc6943dce").kendoContextMenu({"select":KendoHelper.gridContextMenuSelectHandler,"open":KendoHelper.openContextMenuHandler,"filter":"td","target":"#2d3e094d-bae1-429e-a2ac-a14fc6943dce"});});</script>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var gridOptions = {"Columns":[{"Field":"IsErledigt","Width":200,"Hidden":false,"Type":"System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e","AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":true,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"PosnrLfd","Width":200,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"Beschreibung","Width":600,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"Vorgang","Width":400,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"Verursacher","Width":300,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"Angelegt","Width":300,"Hidden":false,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null},{"Field":"Id","Width":150,"Hidden":true,"Type":null,"AssignColumn":false,"CheckboxFilter":false,"EmphasizeFlagField":null,"DisableFlagField":null,"Editable":false,"Encoded":true,"Dynamic":false,"Prepend":false,"Locked":false,"NaturalSorting":false,"Format":null}],"Sort":[{"Field":"Id","Dir":"asc"}],"DefaultFilterString":"","UserdefinedFilterString":null,"GridTypes":[],"IdColumns":["Id"],"EmphasizeFlagFields":[],"DisableFlagFields":[],"IsStandard":true,"IsGridProfileInvalid":false};
+        var conflictsGridController = new ConflictsGridController('2d3e094d-bae1-429e-a2ac-a14fc6943dce', gridOptions);
+    });
+</script>
+
+
+        </div></div></div>
+</div>
+
+<input type="hidden" id="angId" value="1008429" />
+<input type="hidden" id="documentId" value="1008429" />
+<input type="hidden" id="contractId" value="121869" />
+<input type="hidden" id="vorgangId" />
+<input type="hidden" data-val="true" data-val-required="The Kunden-ID field is required." id="comp_id" name="comp_id" value="108938" />
+<input type="hidden" id="laufzeitende" name="laufzeitende" value="31.12.2026 00:00:00" />
+<input type="hidden" id="ColumnExpansionIds" name="ColumnExpansionIds" value="" />
+<input type="hidden" data-val="true" data-val-required="The ContractChangeActionType field is required." id="ContractChangeActionType" name="ContractChangeActionType" value="0" />
+<input type="hidden" data-val="true" data-val-required="The CanVorgangUebertragen field is required." id="CanVorgangUebertragen" name="CanVorgangUebertragen" value="True" />
+<input type="hidden" data-val="true" data-val-required="The CanVorgangOeffnen field is required." id="CanVorgangOeffnen" name="CanVorgangOeffnen" value="False" />
+<input type="hidden" data-val="true" data-val-required="The CanEdit field is required." id="CanEdit" name="CanEdit" value="True" />
+<input type="hidden" data-val="true" data-val-required="The IsNew field is required." id="IsNew" name="IsNew" value="False" />
+<input type="hidden" data-val="true" data-val-required="The IsOffer field is required." id="IsOffer" name="IsOffer" value="False" />
+<input type="hidden" data-val="true" data-val-required="The ContractBlocked field is required." id="ContractBlocked" name="ContractBlocked" value="False" />
+<input type="hidden" id="EndOfContractAnsi" name="EndOfContractAnsi" value="2026-12-31" />
+
+<script id="fileUploadDialogTemplate" type="text/x-kendo-template">
+    <a href="#" class='k-button k-disabled' role="button" data-activeif="importable" id='fileUploadbutton' onclick='performClick(theFile)'><i class='icon-upload'></i>Importieren</a>
+    <form id="fileUploadForm" enctype="multipart/form-data" name="myForm">
+        <input type='file' id='theFile' value="upload" hidden onchange="submitUpload(this)" accept=".xls,.xlsx,.xlsm,.csv" />
+    </form>
+</script>
+
+<script>
+
+    function importable() {
+        var isImportable = false;
+
+        var type = window.location.pathname.split('/')[1];
+
+        switch (type) {
+            case "Contract": 
+                isImportable = $("#CanEdit").val().toLowerCase() === "true";
+                break;
+
+            case "Offer":
+                isImportable =  $("#angId").val() !== "" && $("#CanEdit").val().toLowerCase() === "true";
+                break;
+
+            case "ContractChange": 
+                var externalProcess = $("#vorgangId").val() !== "" && $("#vorgangId").val() !== "0";
+                var isPriceChange = $("#ContractChangeActionType").val() == CONTRACT_CHANGE_ACTION_TYPE.PRICE_CHANGE;
+
+                isImportable = 
+                    $("#angId").val() !== "" && 
+                    $("#CanEdit").val().toLowerCase() === "true" &&
+                    !externalProcess &&
+                    !isPriceChange;
+                break;
+
+            default:
+                break;
+        }
+
+        return isImportable;
+    }
+
+    function performClick(elem) {
+        if (elem && !$("#fileUploadbutton").hasClass("disabled") && document.createEvent) {
+            var evt = document.createEvent("MouseEvents");
+            evt.initEvent("click", true, false);
+            elem.dispatchEvent(evt);
+        }
+    }
+
+    function submitUpload(obj) {
+        var form = $('#fileUploadForm')[0]; // You need to use standard javascript object here
+        var modelId = $(form).parent().attr("data-id");
+        var controller = window.location.pathname.split("/")[1];
+        var formData = new FormData(form);
+
+        formData.append('file', $(obj)[0].files[0]); 
+        formData.append('id', modelId);
+
+        KendoHelper.startProgress($("#fileUploadbutton"));
+        AjaxHelper.ajaxSecureJson({
+            url: '/' + controller + '/ImportData',
+            data: formData,
+            type: 'POST',
+            contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)
+            processData: false, // NEEDED, DON'T OMIT THIS
+            success: function (data, textStatus, jqXHR) {
+                Notifications.success(SharedResource.batchImportStart);
+                KendoHelper.endProgress($("#fileUploadbutton"));
+                $('#theFile').val("");
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                //Notification is shown by AjaxHelper.globalErrorHandler
+                //Notifications.error(SharedResource.batchError);
+                KendoHelper.endProgress($("#fileUploadbutton"));
+                $('#theFile').val("");
+            }
+        });
+
+        event.preventDefault();
+    }
+</script>
+
+
+<script>
+    $(function () {
+        var isEditable = 'True'.toLowerCase() == 'true';
+        
+        if ('False' != 'True') {
+            if ('False' == 'True') {
+                $('#linkToEvplProcess').show();
+                if (isEditable) {
+                    KendoHelper.handleEditable(false, Windows.getTopWindow(), false, 'warning', SharedResource.editingWarningContractChange);
+                    ContractChangeDetails.processWarningWasShown = true;
+                } else {
+                    KendoHelper.handleEditable(false);
+                }
+            } else {
+                $('#linkToEvplProcess').hide();
+                KendoHelper.handleEditable(isEditable);
+            }
+        } else {
+            $("#kalk_datum").trigger("change");
+        }
+
+        if ("" != "") {
+            Notifications.notify("", "notice");
+        }
+        if ($("#ContractBlocked").val() === "True") {
+            Notifications.notify(ContractChangeResource.contractBlocked, "notice");
+        }
+    });
+</script>
+
+
+        <div id="k-notification"></div>
+        <div id="k-dialog"></div>
+    </div>
+
+    <div id="modal-container" class="modal-container"></div>
+
+    <ul id="global-context-menu"></ul>
+    <script id="confirmationTemplate" type="text/x-kendo-template">
+    <div class="window-content pb-0">
+        <h3 class="confirm-title"></h3>
+        <div class="confirm-message" role="alert"></div>
+        <div class="dialog-buttons">
+            <a href="#" role="button" class="confirm-yes k-button k-primary">Yes</a>
+            <a href="#" role="button" class="confirm-no k-button">No</a>
+        </div>
+    </div>
+</script>
+    
+<script id="customInfoTemplate" type="text/x-kendo-template">
+    <div class="window-content pb-0">
+        <h3 class="info-title"></h3>
+        <div class="info-message" role="alert"></div>
+        <div class="dialog-buttons">
+            <a href="#" role="button" class="info-close k-button k-primary">Close</a>
+        </div>
+    </div>
+</script>
+    
+
+
+<script id="helpPartial" type="text/template">
+    <div class="window-header">
+        <div class="window-subtitle">
+            <a href="" class="close-arrow" role="button" aria-label="Schließen">
+                <span class="icon-arrow-left7"></span>
+            </a>
+            <h2>
+                Anleitung
+            </h2>
+        </div>
+        <div class="d-flex justify-content-between bd-highlight">
+            <h3 class="window-title">
+                <span>Hilfe</span>
+            </h3>
+        </div>
+    </div>
+
+    <div class="window-content pb-0">
+        <div class="h-100">
+            <div class="keyboard-navi-grid-container h-100">
+<div class="card flat-card">
+    <div class="card-header">
+        <h4>Tastaturk&uuml;rzel für Aktionen im Kopf- und im Datenbereich einer Listenansicht</h4>
+    </div>
+    <div class="card-body">
+        <div class="col-lg-6">
+            <ul class="list-unstyled" id="keyboardGeneral">
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Enter:">Enter:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Sortierung nach der Spalte">Sortierung nach der Spalte</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Alt + Runter:">Alt + Pfeil Runter:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Filtermenü öffnen">Filtermen&uuml; &ouml;ffnen</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Esc:">Esc:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Schließt das Filtermenü">Schlie&szlig;t das Filtermen&uuml;</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Tab:">Tab:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Navigiert durch die Elemente in den Filtermenüs">Navigiert durch die Elemente in den Filtermen&uuml;s</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Shift + Tab:">Shift + Tab:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Das gleiche wie bei Tab, nur umgekehrte Reihenfolge">Das gleiche wie bei Tab, nur umgekehrte Reihenfolge</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Strg + Peil Links:">Strg + Pfeil Links:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Vertauscht die fokussierte Spalte mit der vorherigen Spalte">Vertauscht die fokussierte Spalte mit der vorherigen Spalte</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Strg + Peil Rechts:">Strg + Pfeil Rechts:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Vertauscht die fokussierte Spalte mit der nächsten Spalte">Vertauscht die fokussierte Spalte mit der n&auml;chsten Spalte</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">               
+            <ul class="list-unstyled" id="keyboardGeneral">
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Alt + w:">Alt + w:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Fokussiert den Datenbereich der Listenansicht">Fokussiert den Datenbereich der Listenansicht</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Alt + Rechts:">Alt + Pfeil Rechts:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Aufklappen von Detailzeilen">Aufklappen von Detailzeilen</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Alt + Links:">Alt + Pfeil Links:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Zuklappen von Detailzeilen">Zuklappen von Detailzeilen</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Pfeiltasten:">Pfeiltasten:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Navigation über die Zellen">Navigation über die Zellen</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Enter:">Enter:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Öffnet die Detailansicht">&Ouml;ffnet die Detailansicht</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Bild Rauf:">Bild Rauf:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Paging auf vorherige Seite">Paging auf vorherige Seite</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Bild Runter:">Bild Runter:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Paging auf nächste Seite">Paging auf n&auml;chste Seite</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Space:">Space:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Selektiert die aktuelle Zeile und hält diese markiert">Selektiert die aktuelle Zeile und h&auml;lt diese markiert</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Strg + Leertaste:">Strg + Leertaste:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Selektiert und deselektiert aktuelle Zeile, hält vor selektierte Zeilen aber markiert (Nur bei Mehrfachselektion)">Selektiert und deselektiert aktuelle Zeile, h&auml;lt vor selektierte Zeilen aber markiert (Nur bei mehrfach Selektion)</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Shift + Leertaste:">Shift + Leertaste:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Bereichsselektion - Selektiert alle Zeilen zwischen der zu selektierten Zeile und der Zeile, deren Zelle aktuell fokussiert ist">Bereichsselektion - Selektiert alle Zeilen zwischen der zu selektierten Zeile und der Zeile, deren Zelle aktuell fokussiert ist</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Strg + Pos1:">Strg + Pos1:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Fokussiert die erste fokussierbare Zelle in der ersten Zeile">Fokussiert die erste fokussierbare Zelle in der ersten Zeile</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Strg + Ende:">Strg + Ende:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Fokussiert die letzte fokussierbare Zelle in der letzten Zeile">Fokussiert die letzte fokussierbare Zelle in  der letzten Zeile</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Pos1:">Pos1:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Fokussiert die erste fokussierbare Zelle in einer Zeile">Fokussiert die erste fokussierbare Zelle in einer Zeile</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Ende:">Ende:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Fokussiert die letzte fokussierbare Zelle in einer Zeile">Fokussiert die letzte fokussierbare Zelle in einer Zeile</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Strg + Leertaste:">Strg + Leertaste:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Gruppiert/ungruppiert die fokussierte Spalte">Gruppiert/ungruppiert die fokussierte Spalte</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <span aria-label="Strg + F10:">Strg + F10:</span>
+                        </div>
+                        <div class="col-lg-9">
+                            <span aria-label="Aufruf des Kontextmenüs für das Öffnen in einem neuen Tab oder einer neuen Seite ">Aufruf des Kontextmen&uuml;s für das &Ouml;ffnen in einem neuen Tab oder einer neuen Seite </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+                    <div class="card flat-card">
+                        <div class="card-header">
+                            <h4>Support</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <span aria-label="CLDB Support Mail-Adresse:">CLDB Support Mail-Adresse:</span>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <span aria-label="CLDB-Support@telekom.de"><a href="mailto: CLDB-Support@telekom.de">CLDB-Support@telekom.de</a></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <span aria-label="Support-Portal:">Support-Portal:</span>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <span aria-label="CLDB Support"><a target="_blank" href="https://yam-united.telekom.com/workspaces/cldb-oe-carrier-loesungsdatenbank-order-entry/apps/content/willkommen">CLDB Support</a></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <span aria-label="Prozess-Cockpit:">Prozess-Cockpit:</span>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <span aria-label="Prozess Cockpit (Mitgliedschaft Community erforderlich.)"><a target="_blank" href="https://yam-united.telekom.com/workspaces/prozess-cockpit/apps/content/startseite">Prozess Cockpit (Mitgliedschaft Community erforderlich.)</a></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <span aria-label="Diese Hilfe-Seite kann von &#xFC;berall in der Anwendung mit folgendem Tastenk&#xFC;rzel aufgerufen werden">Diese Hilfe-Seite kann von &#xFC;berall in der Anwendung mit folgendem Tastenk&#xFC;rzel aufgerufen werden:</span>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <span aria-label="Strg &#x2B; F1">Strg &#x2B; F1</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <span aria-label="CLDB-Version (bei Anfragen bitte mit angeben)">CLDB-Version (bei Anfragen bitte mit angeben):</span>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <span aria-label="24.100.104.120">24.100.104.120</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+
+    
+
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8NYA_0kV7e5MthxIan5bQrvPwZ3ZHWR8VLHhcsXmGqYgvEg1FWBjb6YhR3rs862FPLkW_AiLHr548wnIkWzmqhmuEXhV2MGzVVFXn9YOSmwpqQNUG0wEEoZ_h6xD9LqNMUnxsWy86dZ2-2T3bsTk6C_HhoqJMkKApTzJc68ZjJSniUWqFh7AdrT09SFBnjPXww" />
+
+</body>
+
+</html>
+
