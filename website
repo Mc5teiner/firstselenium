@@ -108,8 +108,7 @@
 
 
 
-<nav class="navbar navbar-main navbar-expand-md navbar-dark bg-magenta">
-    <img src="/images/T_logo_rgb_n.svg" alt="Telekom Logo" class="navbar-brand" style="width: 21px;" />
+<nav class="navbar navbar-main navbar-expand-md navbar-dark bg-red">
 
     <div>
         <ul class="navbar-nav flex-row d-sm-flex d-md-none d-lg-none">
